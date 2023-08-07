@@ -83,7 +83,8 @@ You can download and jump in the container with ([docker >=19.03](https://docs.d
 ```console
 docker run -it --rm --shm-size=8g --ulimit memlock=-1 --gpus all milesial/unet
 ```
-
+###image segmentation
+at first  run segmentation2.py to segment images and masks to a 256*256 size, they also have a overlapping , which is 100.
 
 ### Training
 
